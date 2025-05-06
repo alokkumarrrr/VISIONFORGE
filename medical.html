@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Medical Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to left, #f5f5f5, #e0f7fa);
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+
+    .container {
+      padding: 2rem;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+
+    .medical-center {
+      background-color: #ffffff;
+      padding: 1.5rem 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 1.5rem;
+    }
+
+    .medical-center h3 {
+      color: #1a5276;
+    }
+
+    .medical-center p {
+      font-size: 1rem;
+      color: #2c3e50;
+    }
+
+    .image-section img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .map {
+      margin-top: 2rem;
+      width: 100%;
+      height: 300px;
+    }
+
+    .back-link {
+      margin-top: 2rem;
+      display: inline-block;
+      text-decoration: none;
+      background-color: #2c3e50;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🏥 Medical Services</h1>
+    <nav>
+      <a href="index.html">🏠 Home</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Healthcare Facilities Nearby Murubanda</h2>
+    <p>Ensuring a healthy community is our top priority. The village provides basic medical services, regular health check-ups, and awareness programs for all residents.</p>
+
+    <div class="medical-center">
+      <img src="nurse.jpeg" alt="Nursing Home Chitarpur" style="width: 100%; max-width: 300px; border-radius: 10px;" />
+    
+      <h3>🩺 Nursing Home Chitarpur</h3>
+      <p>Open: Monday to Saturday, 9 AM to 5 PM</p>
+      <p>
+        Visit Website:
+        <a href="https://www.justdial.com/Ramgarh-Jharkhand/Matrika-Sadan-Nursing-Home-NH-23-NearChotkipona-Petrol-Pump-Chitarpur/9999P6553-6553-140506172228-P5H7_BZDET/photos" target="_blank">
+          Click Me
+        </a>
+      </p>
+    </div>
+    <div class="medical-center">
+      <img src="pulse.jpeg" alt="Pulse Medicare Hospital" style="width: 100%; max-width: 300px; border-radius: 10px;" />
+    
+      <h3>🩺 Pulse Medicare Hospital</h3>
+      <p>Open: Monday to Saturday, 9 AM to 5 PM</p>
+      <p>
+        Visit Website:
+        <a href="https://www.google.com/search?sca_esv=a53cd43173ba6200&hl=en-GB&gl=in&output=search&kgmid=%2Fg%2F11fmxzbxls&q=Pulse%20Medicare%20Hospital&shndl=30&shem=lstuoe&source=sh%2Fx%2Floc%2Fact%2Fm1%2F4&kgs=c060386dc9fb9485" target="_blank">
+          Click Me
+        </a>
+      </p>
+    </div>
+    </div>
+    <br>
+
+    <div class="map">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3635.0582297808324!2d85.51570831500224!3d23.63699678463513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e71c7ecdc3e1%3A0xf9d8c44d7e7caa49!2sRamgarh%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1622888888888"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <a class="back-link" href="index.html">← Back to Home</a>
+  </div>
+
+</body>
+</html>

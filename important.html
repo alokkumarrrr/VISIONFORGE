@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Important Contacts - Murubanda</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+      color: #333;
+    }
+
+    header {
+      background-color: #90aecc;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+    }
+
+    .container {
+      padding: 2rem;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #a31717;
+    }
+
+    section {
+      margin-bottom: 2rem;
+      background-color: #ffffff;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      animation: slideUp 1s ease;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+
+    a.home-link {
+      display: block;
+      text-align: center;
+      margin-top: 1rem;
+      text-decoration: none;
+      color: #2980b9;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    a.home-link:hover {
+      color: #1abc9c;
+    }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌟 Important Information</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>🚨 Emergency Numbers</h2>
+      <ul>
+        <li>Ambulance: 108 / 102</li>
+        <li>Fire Station: 101</li>
+        <li>Police Station: 100 / Local Station - 06553-240110</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🤝 Local NGOs / Community Help</h2>
+      <ul>
+        <li>Gramin Vikas Seva Samiti - 9835197642</li>
+        <li>Sahara Self-Help Group - 9801029384</li>
+        <li>Women Welfare Mission - 9696969696</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🏤 Post Office & Banks</h2>
+      <ul>
+        <li>Post Office: Murubanda BO – PIN 825101</li>
+        <li>State Bank of India – Chitarpur Branch – IFSC: SBIN0002425</li>
+        <li>Jharkhand Gramin Bank – Chitarpur – IFSC: JACX0000106</li>
+      </ul>
+    </section>
+
+    <a class="home-link" href="index.html">⬅️ Back to Home</a>
+  </div>
+
+</body>
+</html>

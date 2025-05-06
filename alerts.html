@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Urgent Alerts - My Village Directory</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #000000;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1599395304032-1c47880ae455?auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 6px #000;
+      font-size: 1.8rem;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    .container {
+      padding: 2rem;
+      animation: slideIn 1.2s ease;
+    }
+
+    .alert {
+      background-color: #ffe6e6;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+      border-left: 5px solid #e74c3c;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    .alert h3 {
+      margin-top: 0;
+      color: #ff1900;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    footer {
+      text-align: center;
+      background-color: #ec1800;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🚨 Urgent Alerts</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <div class="hero" style="color:#000000">
+    Important Village Alerts and Warnings 
+  </div>
+
+  <div class="container">
+    <div class="alert">
+      <h3>⚠️ Power Cut Scheduled</h3>
+      <p>Electricity will be unavailable on <strong>May 7, 2025</strong> from 9 AM to 2 PM for maintenance. Please plan accordingly.</p>
+    </div>
+
+    <div class="alert">
+      <h3>⚠️ Water Contamination Alert</h3>
+      <p>Residents are advised to boil drinking water until further notice. A repair to the supply pipeline is underway.</p>
+    </div>
+
+    <div class="alert">
+      <h3>⚠️ Forest Fire Risk</h3>
+      <p>Due to high temperatures, fire risk is elevated. Do not burn waste near forested areas. Report any smoke immediately.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy;  Stay Safe and Informed , with best compilment from visionforge ♡
+  </footer>
+
+</body>
+</html>

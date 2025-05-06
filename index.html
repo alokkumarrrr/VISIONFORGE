@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Village Directory</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        url('front.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      box-shadow: 0 8px 16px rgba(182, 162, 162, 0.2);
+      min-width: 160px;
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: #333;
+      padding: 10px 15px;
+      display: block;
+      text-decoration: none;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .hero {
+      background-color: rgba(232, 238, 235, 0.8);
+      padding: 2rem;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .animated-quote.slide-in {
+      text-align: center;
+      font-size: 1.4rem;
+      font-style: italic;
+      font-weight: bold;
+      color: #cdd86a; /* greenish */
+      margin-top: 1rem;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: slideIn 3s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    .container {
+      padding: 2rem;
+    }
+
+    section {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 1rem 2rem;
+      margin: 1rem;
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #3671ac;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌾 My Village Directory</h1>
+    
+    <nav>
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="#">Services ▾</a>
+        <div class="dropdown-content">
+          <a href="government.html">Government Services</a>
+          <a href="education.html">Education Services</a>
+          <a href="medical.html">Medical Services</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="#">Directory ▾</a>
+        <div class="dropdown-content">
+          <a href="officials.html">Panchayat Officials</a>
+          <a href="institutions.html">Agriculture and Farming</a>
+          <a href="important.html">Imortant contacts </a>
+          
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="#">Announcements ▾</a>
+        <div class="dropdown-content">
+          <a href="events.html">Events</a>
+          <a href="jobs.html">Job Notices</a>
+          <a href="alerts.html">Urgent Alerts</a>
+        </div>
+      </div>
+      <a href="contact.html">About us</a>
+    </nav>
+
+  </header>
+
+  <div class="hero" style="
+  background-color: #bcc18e;
+  color: #082a4c;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 3rem 1rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  margin: 2rem auto;
+  max-width: 90%;
+  animation: fadeZoom 2s ease-in-out;
+  transform-origin: center;
+">
+  Welcome to Our Village Portal
+</div>
+
+<!-- Include this style block anywhere inside your <head> or before </body> -->
+<style>
+@keyframes fadeZoom {
+  0% {
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+</style>
+
+
+  <div class="animated-quote slide-in">
+    <p>"🌿 <em><strong>Empowering Village through access, awareness and information.</strong></em> 🌿"</p>
+  </div>
+
+  <div class="container">
+    <section id="overview">
+      <h2>Village Overview</h2>
+      <p>Welcome to Murubanda, located in Ramgarh, Jharkhand. This digital portal provides updated information on services, governance and announcements.</p>
+    </section>
+
+    <section id="services">
+      <h2>About Our Village</h2>
+      <p><strong>Location:</strong> Chitarpur Block Panchayat</p>
+      <p><strong>Population:</strong> 1098 people</p>
+      <p><strong>Household:</strong> 195</p>
+      <p><strong>Geographical Area:</strong> 148.52 hectares</p>
+      <p><strong>Village Code Number:</strong> 369165</p>
+      <p><strong>Postal Code:</strong> 825101</p>
+    </section>
+
+    <section id="announcements">
+      <h2>Literacy Rate</h2>
+      <p><strong>Illiterate:</strong> 414 People (148 male, 266 female)</p>
+      <p><strong>Literate:</strong> 684 People (412 male, 272 female)</p>
+      <p><strong>Rate:</strong> 62.2%</p>
+    </section>
+
+    <section id="Purposes">
+      <h2>Our Purposes</h2>
+      <p><strong>*</strong> Our mission is to empower the people of Murubanda by providing centralized platforms for access to vital information, public services and latest updates.</p>
+      <p><strong>*</strong> We believe in bridging the gap between technology and community.</p>
+    </section>
+   
+  </div>
+
+  <footer>
+    Together We Grow, Together We Thrive
+  </footer>
+
+</body>
+</html>

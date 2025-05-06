@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - My Village Directory</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+    }
+
+    .info-statement {
+      background-image: url('image.jpg');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      max-width: 100%;
+      height: 320px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: fadeInUp 1.5s ease;
+      margin: 2rem auto;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .info-statement .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      color: #fff;
+      text-align: center;
+      font-size: 1.3rem;
+      max-width: 800px;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    footer {
+      text-align: center;
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1> About  Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <section class="info-statement">
+    <div class="overlay">
+      <p>
+        Our village directory is built with love and care to be a simple, helpful guide for everyone in our community.
+        Whether you're a resident or a visitor, you can find everything you need—from government services and local updates
+        to important contacts—all in one easy place.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; MADE BY VISIONFORGE WITH ♡
+  </footer>
+
+</body>
+</html>

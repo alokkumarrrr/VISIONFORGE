@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Job Opportunities - My Village Directory</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f9ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #1e3d59;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+      font-size: 2rem;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    .container {
+      padding: 2rem;
+      animation: slideIn 1.2s ease;
+    }
+
+    .job-post {
+      background-color: #ffffff;
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.5rem;
+      border-left: 5px solid #2980b9;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .job-post h3 {
+      margin-top: 0;
+      color: #1e3d59;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(40px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    footer {
+      text-align: center;
+      background-color: #1e3d59;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>💼 Job Notices</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    Find Job Opportunities in Your Area
+  </div>
+
+  <div class="container">
+    <div class="job-post">
+      <h3>📌 Panchayat Assistant (Government Job)</h3>
+      <p>Qualification: 12th Pass. Apply before <strong>May 20, 2025</strong>. Visit Panchayat Office for the application form.</p>
+    </div>
+
+    <div class="job-post">
+      <h3>📌 Teacher Vacancy - Basic School Murubanda</h3>
+      <p>Guest teachers required for Math and Science. Contact Principal for walk-in interview schedule. Location: Murubanda.</p>
+    </div>
+
+    <div class="job-post">
+      <h3>📌 Health Worker Posts</h3>
+      <p>Vacancies available for ANMs and health assistants. Must hold relevant certification. Apply by <strong>May 30</strong>.</p>
+    </div>
+  </div>
+
+  <footer>
+    Grab The Opportunities
+  </footer>
+
+</body>
+</html>

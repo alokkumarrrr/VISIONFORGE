@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Village Officials</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+    }
+
+    header {
+      background-color: #006064;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+
+    .container {
+      padding: 2rem;
+      animation: slideIn 0.7s ease-in-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    h2 {
+      color: #004d40;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+
+    .officials-card {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-top: 1.5rem;
+    }
+
+    .officials-card h3 {
+      color: #00796b;
+    }
+
+    .officials-card p {
+      font-size: 1rem;
+      color: #333;
+    }
+
+    .image-section img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .map {
+      margin-top: 2rem;
+      width: 100%;
+      height: 300px;
+    }
+
+    .back-link {
+      margin-top: 2rem;
+      display: inline-block;
+      text-decoration: none;
+      background-color: #00796b;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>👥 Village Officials</h1>
+    <nav>
+      <a href="index.html">🏠 Home</a>
+    </nav>
+  </header>
+  <div class="image-section" style="text-align: center; padding: 10px;">
+    <h3>🏢 Village Panchayat Office</h3>
+    <img src="plus.jpg" alt="Officials group photo or office" style="width: 90%; max-width: 600px; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+  </div>
+  <div class="container">
+    <h2>Meet Our Local Leaders</h2>
+    <p>Our village of Murubanda is guided by responsible and respected officials working for the welfare of the community. Here are the key representatives:</p>
+
+    <div class="officials-card">
+      <h3>👤 Sarpanch</h3>
+      <p><strong>Name:</strong> Mrs. Neena devi</p>
+      <p><strong>Phone:</strong> 9876543210 </p>
+    </div>
+
+    <div class="officials-card">
+      <h3>👩‍⚖️ Village Secretary</h3>
+      <p><strong>Name:</strong> Mr. Sumit Kumar Sinha </p>
+      <p><strong>Phone:</strong> 8899776655</p>
+    </div>
+
+    <div class="officials-card">
+      <h3>🧑‍🏫 Ward member </h3>
+      <p><strong>Name:</strong> Sikandar Bediya </p>
+      <p><strong>Phone:</strong> 9966335522</p>
+    </div>
+
+    <div class="officials-card">
+      <h3>👮 Police Station In-charge</h3>
+      <p><strong>Name:</strong> Inspector Rakesh Thakur</p>
+      <p><strong>Phone:</strong> 9011223344</p>
+    </div>
+
+    
+
+    <div class="map">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3635.0582297808324!2d85.51570831500224!3d23.63699678463513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e71c7ecdc3e1%3A0xf9d8c44d7e7caa49!2sRamgarh%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1622888888888"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <a class="back-link" href="index.html">← Back to Home</a>
+  </div>
+
+</body>
+</html>
+`
